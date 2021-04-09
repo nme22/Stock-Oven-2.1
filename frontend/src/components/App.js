@@ -6,7 +6,9 @@ function LoginFormInput() {
 }
 
 function LoginForm() {
+  
   const [email, setEmail] = React.useState('') 
+  console.log(email);
   const [password, setPassword] = React.useState('');  
 
   return (
